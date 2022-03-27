@@ -1,4 +1,4 @@
-# Rock-paper-scissor-lizard-spock Challenge
+# Rock-paper-scissor-lizard-spock NextJS Challenge
 
 ### Objective
 
