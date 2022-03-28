@@ -17,7 +17,7 @@ const PlayButtons: FunctionComponent<PlayButtonProps> = ({
             <motion.div className={styles.playbuttons}>
                 {advanced ? (
                     <div className={styles.threegrid}>
-                        <Button onClicK={()=>onCLick(0)} classN={styles.scissor} lid="sci">
+                        <Button onClicK={()=>onCLick(0)} classN={styles.scissors} lid="sci">
                             <img src="/icon-scissors.svg" alt="sci" />
                         </Button>
                         <Button onClicK={()=>onCLick(3)} classN={styles.spock} lid="spock">
@@ -26,7 +26,7 @@ const PlayButtons: FunctionComponent<PlayButtonProps> = ({
                         <Button onClicK={()=>onCLick(1)} classN={styles.paper} lid="paper">
                             <img src="/icon-paper.svg" alt="pap" />
                         </Button>
-                        <Button onClicK={()=>onCLick(4)} classN={styles.liz} lid="liz">
+                        <Button onClicK={()=>onCLick(4)} classN={styles.lizard} lid="liz">
                             <img src="/icon-lizard.svg" alt="liz" />
                         </Button>
                         <Button onClicK={()=>onCLick(2)} classN={styles.rock} lid="rock">

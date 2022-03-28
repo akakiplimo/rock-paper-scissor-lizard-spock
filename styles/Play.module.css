@@ -37,13 +37,13 @@
         "sci sci";
 }
 
-.scissor,
+.scissors,
 .sci2,
 .rock,
 .rock2,
 .paper,
 .paper2,
-.liz,
+.lizard,
 .spock {
     border-radius: 50%;
     width: 100px;
@@ -59,13 +59,13 @@
     grid-area: rock;
     justify-self: center;
     align-self: end;
-    background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 71%, 52%));
+    background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
 }
 
 .rock2 {
     grid-area: rock;
     justify-self: center;
-    background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 71%, 52%));
+    background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
 }
 
 .paper {
@@ -79,7 +79,7 @@
     background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
 }
 
-.scissor {
+.scissors {
     grid-area: sci;
     justify-self: end;
     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
@@ -92,7 +92,7 @@
     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
 }
 
-.liz {
+.lizard {
     grid-area: liz;
     justify-self: center;
     background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
