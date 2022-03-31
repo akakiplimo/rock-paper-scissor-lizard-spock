@@ -54,8 +54,7 @@ export const Results: FunctionComponent<ResultsProps> = ({
                     animate={{ y: 0, transition:{ loop: 3} }}
                 >
                     <Button
-                        classN={` ${styles2[GameRules[selected].value]} ${styles.btn}`}
-                    >
+                        classN={` ${styles2[GameRules[selected].value]} ${styles.btn}`} onClicK={undefined}                    >
                         <img src={`/icon-${GameRules[selected].value}.svg`} alt="" />
                     </Button>
                 </motion.div>
@@ -70,8 +69,7 @@ export const Results: FunctionComponent<ResultsProps> = ({
                 >
                     {house && (
                         <Button 
-                            classN={`${styles2[house]} ${styles.btn}`}
-                        >
+                            classN={`${styles2[house]} ${styles.btn}`} onClicK={undefined}                        >
                             <img src={`/icon-${house}.svg`} alt="" />
                         </Button>
                     )}
