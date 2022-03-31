@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useState } from 'react'
-import { Header } from '../components/header';
+import { Header } from '../components/Header';
 import { Rules } from '../components/Rules';
 import { Play } from '../components/Play';
 import { Results } from '../components/Results';
