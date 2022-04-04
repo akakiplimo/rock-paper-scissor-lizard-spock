@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Create Next App</title>
+        <title>Rock Paper Scissors Advanced</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header advanced={advancedMode} score={score} />
